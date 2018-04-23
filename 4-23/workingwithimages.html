@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>imagetest</title>
+        <style>
+            body {
+            	width: 95%;
+            	margin: 1em auto;
+            }
+            
+            h1 {
+            	margin: 0;
+            	padding:0;
+            	padding-left: 2em;
+            }
+            
+            #image1 {
+				background-image: url("images/p1.jpg");
+			    width:734px;
+			    height:734px;
+			    background-repeat: no-repeat;
+			}
+			#image1:hover {
+				background-image: url("images/p2.jpg");}
+				
+			figcaption {
+				font-weight: bold;
+				font-size: 150%;
+			}
+			
+			#large {
+				margin-top: 5%;
+				background-image: url("images/p1.jpg");
+			    height: 901px;
+			    width: 720px;
+			    background-repeat: no-repeat;
+			    float: left;
+			       
+			}
+			
+			#small {
+				margin-top: 5%;
+				background-image: url("images/p3.jpg");
+			    background-repeat: no-repeat;
+			    width: 600px;
+			    height: 600px;
+			    float: right;
+			}
+			
+		</style>
+	</head>
+	
+	<body>
+		<h1>Image Test</h1>         
+    	<p id="image1">
+    	<figcaption>Undergrads</figcaption>
+    	</p>
+    	<section>
+    		<p id= "large"></p>
+    		<p id= "small"></p>
+    	<section>
+	</body>
+</html>
